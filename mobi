@@ -1,0 +1,27 @@
+ <br>
+                                <input type="radio" onclick="otpmgt()" id="have_otp" value="HAVE_OTP" name="otp_required">
+                                <div class="container">
+                <div class="form_container">   
+                    <form method="post" autocomplete="on" action="Get_Appointment" onsubmit="return validate_appointmentLogin_form();">  
+                        <div class="row text_center" id="generate_otp_msg" style="font-weight:bold;font-size: 14px;padding-bottom:
+                        <div class="row">
+                        <input id="generate_otp" type="radio" name="otp_required" value="generate_otp" onclick="otpmgt()">
+I want to Generate OTP
+<br>
+<input id="have_otp" type="radio" name="otp_required" value="HAVE_OTP" onclick="otpmgt()">
+I have received OTP 
+<button id="arngAlpha" style="margin-right: 6px;" type="button">Arrange Alphabetically</button>
+<button id="reverse" style="margin-right: 5px;" type="button">Reverse</button>
+<button id="multiply" style="margin-right: 5px;" type="button">Multiply</button>
+<button id="addition" type="button">Add</button>
+<div id="timer_msg" align="center" style="font-weight:bold;font-size: 14px;padding-top:20px">
+<br>
+<br>
+<div id="error_msg" style="text-align: center;font-weight: bold;color:#C61919"></div>
+<input type="open" name="token" value="5a6e2b1e-db65-4095-9e41-dfcb5d50ea49">
+<div id="timer_msg" align="center" style="font-weight:bold;font-size: 14px;padding-top:20px">
+<input id="btn1" class="btn btn-primary" type="submit" name="submit_btn" value="Generate OTP">
+</div>
+<br>
+<br>
+<div id="sent_msg" style="text-align: center;font-weight: bold;color:#C61919"></div>
